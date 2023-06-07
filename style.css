@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(128, 126, 206, 1);
+    box-sizing: border-box;
+}
+
+.big-contianer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 30px auto;
+    height: 600px;
+    width: 400px;
+    border-radius: 48px;
+    background-color: rgba(45, 42, 55, 1);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    height: 100px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+}
+
+.button-container {
+    height: 100%;
+    width: 350px;
+    margin: 50px auto;
+}
+
+.button {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 12px;
+
+    color: white;
+
+    border-radius: 999px;
+
+    font-size: 33px;
+
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+
+    box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+
+}
+
+.button {
+    cursor: pointer;
+}
+
+#clr-pur {
+    color: rgba(151, 93, 250, 1);
+}
+
+#bg-purple {
+    background-color: rgba(70, 40, 120, 1);
+}
+
+#equal-bg-clr {
+    background-color: rgba(127, 69, 226, 1);
+}
